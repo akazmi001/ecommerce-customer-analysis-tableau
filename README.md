@@ -63,6 +63,8 @@ The dataset includes the following fields:
 ### Sales Trends Overview
 ![Sales Trends](images/sales_trends.png)
 
+### Final Dashboard
+![Final Dashboard](images/Dashboard.PNG)
 
 
 
