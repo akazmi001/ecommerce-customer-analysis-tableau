@@ -1,67 +1,74 @@
-# Customer Analysis for E-commerce Data using Tableau (2024)
+# Customer Behavior Analysis for E-Commerce Data using Tableau (2024)
 
-This project involves analyzing and visualizing customer and sales data from an E-commerce platform. Using **Tableau**, I built interactive dashboards to uncover key insights about customer behavior, segmentation, and sales performance trends.  
-The goal is to assist in data-driven business decision-making through effective storytelling with data.
+This project presents a detailed analysis of customer behavior within the Amazon platform, leveraging **Tableau** for interactive data visualizations. By examining browsing patterns, purchasing decisions, product reviews, and interface engagement, we derive actionable insights to inform business strategies.
 
----
 
 ## 📊 Project Objectives
 
-- Analyze customer demographics and behaviors.
-- Identify high-value customer segments for targeted marketing.
-- Visualize sales trends across different categories, regions, and months.
-- Understand customer loyalty patterns and purchasing behavior.
+- Analyze customer browsing patterns, purchase decisions, and product review sentiment.
+- Understand how different factors (like product ratings, pricing, and discounts) influence customer behavior.
+- Visualize engagement metrics to enhance user interface design and customer experience.
+- Identify key customer segments for targeted marketing and personalization strategies.
 
----
 
 ## 🛠️ Tools and Technologies
 
-- **Tableau**: For data visualization and dashboard creation.
-- **Microsoft Excel**: For initial data cleaning and preprocessing.
+- **Tableau Desktop/Public**: For creating interactive dashboards and visual analytics.
+- **Microsoft Excel**: For preliminary data cleaning and organization.
 
----
 
 ## 🗂️ Dataset Overview
 
-The dataset includes the following fields:
+The dataset includes the following columns:
 
-- `order_id`, `order_date`, `status`
-- `item_id`, `sku`, `qty_ordered`, `price`, `value`, `discount_amount`, `total`
-- `category`, `payment_method`
-- `cust_id`, `year`, `month`
-- `Name Prefix`, `First Name`, `Middle Initial`, `Last Name`
-- `Gender`, `age`, `full_name`, `E Mail`, `Customer Since`
-- `SSN`, `Phone No.`, `Place Name`, `County`, `City`, `State`, `Zip`, `Region`
-- `User Name`, `Discount_Percent`
+- `order_id`, `order_date`, `item_id`, `sku`, `qty_ordered`, `price`, `value`, `discount_total`
+- `category`, `payment_type`, `cost_id`, `year`, `month`, `ref_num`
+- `Name Prefix`, `First Name`, `Middle Initial`, `Last Name`, `Gender`, `Age`
+- `full_name`, `Email`, `Customer Since`, `SSN`, `Phone No.`
+- `Place Name`, `County`, `City`, `State`, `Zip`, `Region`, `User Name`, `Discount_Percent`
 
-> **Note**: Sensitive fields like SSN and Phone Number are anonymized for privacy.
+> **Note**: Sensitive information like SSN and Phone Numbers are anonymized.
 
 
-## 🔥 Key Dashboards and Insights
+## 🔥 Key Insights and Visualizations
 
-- **Customer Demographic Dashboard**  
-  - Age group distribution, gender ratio, and income range analysis.
-  
-- **Customer Segmentation Dashboard**  
-  - Customer groups based on spending behavior and loyalty scores.
-  
-- **Sales Performance Dashboard**  
-  - Monthly sales trends, top-performing product categories, and regional analysis.
-  
-- **Loyalty Analysis Dashboard**  
-  - Repeat customer rate, first-time vs. returning buyers, and customer lifetime value estimates.
+- **Total Revenue**:  
+  - Overall revenue: **$233.65 million**.
 
+- **Age-Wise Sales Analysis**:  
+  - Highest revenue comes from the **30-40 age group** ($44.8 million), followed by the **60-70 age group** ($41.1 million).
+
+- **Gender-Wise Sales Analysis**:  
+  - Women account for higher total sales (**$66.3 million**) compared to men (**$63.8 million**).
+
+- **Product Categories**:  
+  - **Mobiles & Tablets** is the top revenue-generating category at **$150 million**.
+
+- **Month-Wise Revenue Trends**:  
+  - **November** shows the highest revenue (~$57.7 million), while **March** shows the lowest (~$4.4 million).
+
+- **Revenue per State**:  
+  - **California** is the top-performing state with **$11.4 million** annual revenue.
+
+- **Region-Wise Revenue Share**:  
+  - West: 63.8%, Midwest: 26.93%, Northeast: 17.1%, South: 38.37%.
+
+- **Quantity-Discount Correlation**:  
+  - Positive correlation observed: higher discounts lead to higher quantities ordered.
 
 ## 📸 Dashboard Snapshots
 
-### Customer Demographics Overview
-![Customer Demographics](images/customer_demographics.png)
+### Sales by Age Group
+![Age Group Sales](images/age_group_sale.PNG)
 
-### Customer Segmentation Analysis
-![Customer Segmentation](images/customer_segmentation.png)
+### Gender and Category Sales Breakdown
+![Gender Category Sales](images/gender_wise_sale.PNG)
 
-### Sales Trends Overview
-![Sales Trends](images/sales_trends.png)
+### Monthly Revenue Trends
+![Monthly Revenue Trends](images/monthly_revenue.PNG)
+
+### Regional Revenue Map
+![Revenue Map](images/region_map.PNG)
 
 ### Final Dashboard
 ![Final Dashboard](images/Dashboard.PNG)
