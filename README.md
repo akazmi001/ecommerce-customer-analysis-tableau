@@ -1,6 +1,6 @@
 # Customer Behavior Analysis for E-Commerce Data using Tableau (2024)
 
-This project presents a detailed analysis of customer behavior within the Amazon platform, leveraging **Tableau** for interactive data visualizations. By examining browsing patterns, purchasing decisions, product reviews, and interface engagement, we derive actionable insights to inform business strategies.
+This project presents a detailed analysis of customer behavior for e-commerce data leveraging **Tableau** for interactive data visualizations. By examining browsing patterns, purchasing decisions, product reviews, and interface engagement, we derive actionable insights to inform business strategies.
 
 
 ## 📊 Project Objectives
